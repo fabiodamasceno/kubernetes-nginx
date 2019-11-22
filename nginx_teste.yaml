@@ -34,7 +34,7 @@ spec:
         - /bin/bash
         - -ce
         - tail -f /dev/null
-        image: registry.airliquide.com/nginx
+        image: nginx
         imagePullPolicy: Always
         name: nginx
         ports:
