@@ -34,7 +34,7 @@ spec:
         - /bin/bash
         - -ce
         - tail -f /dev/null
-        image: nginx
+        image: ${imageName}
         imagePullPolicy: Always
         name: nginx
         ports:
