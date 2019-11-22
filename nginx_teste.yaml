@@ -27,7 +27,7 @@ spec:
     metadata:
       creationTimestamp: null
       labels:
-        app: ${Build.BuildId}
+        app: ngnix
     spec:
       containers:
       - command:
